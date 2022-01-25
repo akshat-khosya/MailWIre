@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Login() {
-  const [sidebar, setsidebar] = useState();
+  
   const [hide, setHide] = useState(true);
   const [login, setLogin] = useState(true);
   return (

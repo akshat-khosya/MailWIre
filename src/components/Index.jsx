@@ -2,10 +2,7 @@ import React, { useState } from "react";
 export default function IndexPage() {
     const [show, setShow] = useState(false);
     const [profile, setProfile] = useState(false);
-    const [ , setMenu] = useState(false);
-    const [menu1, setMenu1] = useState(false);
-    const [menu2, setMenu2] = useState(false);
-    const [menu3, setMenu3] = useState(false);
+    
 
     return (
         <>
