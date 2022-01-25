@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import Logo from "./Logo";
 function Navbar() {
   const [theme,setTheme]=useState(localStorage.getItem('theme')||true);

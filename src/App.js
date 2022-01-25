@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import { Route, Routes,Link, useLocation } from "react-router-dom";
+import { Route, Routes,useLocation } from "react-router-dom";
 import Login from "./pages/Login";
 import IndexPage from "./components/Index";
 function App() {
