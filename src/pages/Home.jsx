@@ -10,10 +10,10 @@ function Home() {
           <br className="hidden lg:inline-block"/>with MailWire
         </h1>
         <p className="mb-8 text-stone-200 leading-relaxed">Verfiy your client just using MailWire API, are you tired of send html mail just use our service.</p>
-        <Link to="/home">Hi</Link>
+        
         <div className="flex justify-center">
           <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Docs</button>
-          <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Sign in</button>
+          <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><Link to="/signin">Sign in</Link></button>
         </div>
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
