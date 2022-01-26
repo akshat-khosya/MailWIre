@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Login() {
   
@@ -170,7 +171,7 @@ function Login() {
               aria-label="create my account"
               className="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full"
             >
-              {login ? "Login" : "Create new account"}
+              {login ? <Link to='/dashboard'>Login</Link>: <Link to='/dashboard'>Create new account</Link>}
             </button>
           </div>
         </div>
